@@ -84,7 +84,7 @@ section {
 }
 
 .top_wrapper {
-  background-image: url(/img/hero.webp);
+  background-image: url(../img/hero.webp);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -182,7 +182,7 @@ header {
   left: 0;
   width: 30%;
   height: 100%;
-  background: url(/img/features-1.webp) no-repeat center center;
+  background: url(../img/features-1.webp) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -193,7 +193,7 @@ header {
   right: 0;
   width: 30%;
   height: 100%;
-  background: url(/img/features-2.webp) no-repeat center center;
+  background: url(../img/features-2.webp) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -219,7 +219,7 @@ header {
 .features_item {
   padding: 40px 0 40px 78px;
   font-size: 24px;
-  background-image: url(/img/features.svg);
+  background-image: url(../img/features.svg);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 60px;
@@ -255,7 +255,7 @@ header {
   right: 20px;
   width: 30%;
   height: 110%;
-  background: url(/img/form.webp) no-repeat center center;
+  background: url(../img/form.webp) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
