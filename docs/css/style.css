@@ -27,36 +27,6 @@ img {
   max-width: 100%;
 }
 
-@font-face {
-  font-family: 'OpenSans';
-  src: local('OpenSans-Regular'),
-    url(fonts-OpenSans/OpenSansRegular.woff2) format(woff2),
-    url(fonts-OpenSans/OpenSansRegular.woff) format(woff);
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'OpenSans';
-  src: local('OpenSans-Light'),
-    url(fonts-OpenSans/OpenSansLight.woff2) format(woff2),
-    url(fonts-OpenSans/OpenSansLight.woff) format(woff);
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'OpenSans';
-  src: local('OpenSans-SemiBold'),
-    url(fonts-OpenSans/OpenSansSemiBold.woff2) format(woff2),
-    url(fonts-OpenSans/OpenSansSemiBold.woff) format(woff);
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
   min-width: 320px;
   font-family: 'OpenSans', sans-serif;
@@ -114,7 +84,7 @@ section {
 }
 
 .top_wrapper {
-  background-image: url(/img/hero.jpeg);
+  background-image: url(/img/hero.webp);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -212,7 +182,7 @@ header {
   left: 0;
   width: 30%;
   height: 100%;
-  background: url(/img/features-1.jpeg) no-repeat center center;
+  background: url(/img/features-1.webp) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -223,7 +193,7 @@ header {
   right: 0;
   width: 30%;
   height: 100%;
-  background: url(/img/features-2.jpeg) no-repeat center center;
+  background: url(/img/features-2.webp) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
@@ -285,7 +255,7 @@ header {
   right: 20px;
   width: 30%;
   height: 110%;
-  background: url(/img/form.png) no-repeat center center;
+  background: url(/img/form.webp) no-repeat center center;
   background-size: cover;
   z-index: 1;
 }
