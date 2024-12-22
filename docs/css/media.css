@@ -1,0 +1,320 @@
+@media (max-width: 1600px) {
+  .header {
+    background-color: #222;
+  }
+
+  .hero_content {
+    max-width: 70%;
+    background-color: #2222226c;
+  }
+}
+
+@media (max-width: 1440px) {
+  .hero_title {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .feature_content {
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .btn {
+    padding: 15px 25px;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+
+  .hero_title {
+    font-size: 60px;
+  }
+
+  .hero_descr {
+    font-size: 35px;
+  }
+
+  .hero_list {
+    min-height: 105px;
+  }
+
+  .hero_item {
+    font-size: 16px;
+  }
+
+  .hero_item strong {
+    font-size: 24px;
+  }
+
+  .features_section::before,
+  .features_section::after {
+    content: none;
+  }
+
+  .feature_content {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    padding-bottom: 50px;
+  }
+
+  section {
+    padding-top: 50px;
+  }
+  .container {
+    padding: 0 25px;
+  }
+
+  .btn {
+    border-radius: 1px;
+    font-size: 10px;
+  }
+
+  .header_container {
+    justify-content: space-around;
+    gap: none;
+  }
+
+  .hero_content {
+    max-width: 90%;
+  }
+
+  .hero_title {
+    margin-bottom: 20px;
+    font-size: 45px;
+  }
+
+  .hero_descr {
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .hero_list {
+    min-height: 65px;
+  }
+
+  .hero_item {
+    font-size: 10px;
+  }
+
+  .hero_item strong {
+    font-size: 16px;
+  }
+
+  .features_item {
+    padding: 25px 0 25px 70px;
+    font-size: 18px;
+  }
+
+  .form_section .container {
+    padding: 72px 0 50px 50px;
+  }
+
+  .form_title {
+    max-width: 550px;
+    font-size: 40px;
+  }
+
+  .form {
+    padding-right: 50px;
+    gap: 20px;
+  }
+
+  .form_section .container::before {
+    top: 85px;
+    height: 80%;
+  }
+
+  .form_content {
+    min-height: 350px;
+  }
+
+  .input_wrapper input {
+    padding: 10px 0px 10px 25px;
+    font-size: 16px;
+  }
+
+  .form_btn {
+    font-size: 16px;
+  }
+
+  .footer_cotainer {
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer_nav {
+    padding: 25px 0;
+  }
+
+  .footer_nav .menu {
+    gap: 45px;
+    font-size: 16px;
+  }
+
+  .footer_logo,
+  .footer_order,
+  .policy {
+    display: none;
+  }
+
+  .footer_socials {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 8px;
+    border-radius: 0.5px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header_container {
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .header_nav {
+    width: 360px;
+  }
+
+  .header_nav .menu {
+    gap: 15px;
+  }
+
+  .hero_title {
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+
+  .hero_descr {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .hero_list {
+    min-height: 45px;
+    margin-bottom: 25px;
+  }
+
+  .hero_item {
+    font-size: 8px;
+  }
+
+  .hero_item strong {
+    font-size: 12px;
+  }
+
+  .feature_content {
+    padding: 0 35px;
+  }
+
+  .features_item {
+    padding: 15px 0 15px 40px;
+    font-size: 17px;
+    background-size: 35px;
+  }
+
+  .feature_list {
+    margin-bottom: 15px;
+  }
+
+  .form_section .container {
+    padding: 50px 0 50px 50px;
+  }
+
+  .form_section .container::before {
+    content: none;
+  }
+
+  .form_content {
+    min-height: fit-content;
+  }
+
+  .form_title {
+    max-width: 550px;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .input_wrapper input {
+    padding: 8px 0px 8px 16px;
+    font-size: 12px;
+  }
+
+  .checkbox {
+    font-size: 15px;
+  }
+
+  .form_btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    padding-top: 35px;
+  }
+
+  .header_container .logo {
+    display: none;
+  }
+
+  .header_nav {
+    width: 100%;
+  }
+
+  .header_nav .menu {
+    font-size: 12px;
+  }
+
+  .top_wrapper {
+    background-size: contain;
+  }
+
+  .hero_content {
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .feature_content {
+    padding: 0;
+  }
+
+  .form_section .container {
+    padding: 25px;
+  }
+
+  .form {
+    padding: 0;
+  }
+
+  .form_title {
+    text-align: center;
+  }
+
+  .footer_nav .menu {
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .footer_socials {
+    flex-wrap: wrap;
+  }
+
+  .socials {
+    gap: 10px;
+  }
+}
